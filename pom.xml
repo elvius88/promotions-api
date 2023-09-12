@@ -25,7 +25,6 @@
         <docker.image.tag>v${project.version}-${git.commit.id.abbrev}-${maven.build.timestamp}</docker.image.tag>
         <maven.build.timestamp.format>yyyyMMdd'T'HHmmss'Z'</maven.build.timestamp.format>
         <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
-        <api.audit.version>1.6.2</api.audit.version>
     </properties>
 
     <dependencies>
