@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.utils;
+package py.com.jaha.api.promotions.utils;
 
 import static java.util.Objects.nonNull;
 

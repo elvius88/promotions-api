@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.config;
+package py.com.jaha.api.promotions.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Primary;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
-import py.com.jaha.api.establishments.domain.models.commons.OpenApiDTO;
+import py.com.jaha.api.promotions.domain.models.commons.OpenApiDTO;
 
 @Configuration
 public class OpenApiConfig {

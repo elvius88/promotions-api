@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.config;
+package py.com.jaha.api.promotions.config;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.annotation.JsonFilter;

@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.config.exception;
+package py.com.jaha.api.promotions.config.exception;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import py.com.jaha.api.establishments.constants.GlobalConstants;
-import py.com.jaha.api.establishments.constants.GlobalErrorCodes;
+import py.com.jaha.api.promotions.constants.GlobalConstants;
+import py.com.jaha.api.promotions.constants.GlobalErrorCodes;
 
 
 @Slf4j

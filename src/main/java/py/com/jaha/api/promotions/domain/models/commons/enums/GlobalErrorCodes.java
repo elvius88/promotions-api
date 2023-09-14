@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.domain.models.commons.enums;
+package py.com.jaha.api.promotions.domain.models.commons.enums;
 
 public class GlobalErrorCodes {
 

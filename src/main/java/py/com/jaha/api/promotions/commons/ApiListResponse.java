@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -6,7 +6,7 @@ import lombok.ToString;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-import py.com.jaha.api.establishments.config.DtoMeta;
+import py.com.jaha.api.promotions.config.DtoMeta;
 
 @Getter
 @Setter

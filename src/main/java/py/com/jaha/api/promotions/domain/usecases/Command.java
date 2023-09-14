@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.domain.usecases;
+package py.com.jaha.api.promotions.domain.usecases;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

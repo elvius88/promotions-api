@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.infraestructure.adapters.out.commons;
+package py.com.jaha.api.promotions.infraestructure.adapters.out.commons;
 
 import java.util.List;
 

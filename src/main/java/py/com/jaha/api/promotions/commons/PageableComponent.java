@@ -1,20 +1,25 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
-import py.com.jaha.api.establishments.config.CustomPageable;
-import py.com.jaha.api.establishments.infraestructure.adapters.in.promotions.VouchersResource;
+import py.com.jaha.api.promotions.config.CustomPageable;
+import py.com.jaha.api.promotions.infraestructure.adapters.in.promotions.OffersResource;
+import py.com.jaha.api.promotions.infraestructure.adapters.in.promotions.PromotionsResource;
 
 @Component
 public class PageableComponent {
 
-    @CustomPageable(VouchersResource.class)
-    public <T> ApiPageableResponse<T> pageableOfferResource(Page<T> page) {
-        return ApiPageableResponse.of(page.getContent());
+    @CustomPageable(OffersResource.class)
+    public <T> ApiPageableResponse<T> pageableOffersResource(Page<T> page) {
+        return pageableResource(page);
     }
 
-    @CustomPageable(VouchersResource.class)
-    public <T> ApiPageableResponse<T> pageableTermsAndConditionsAdminResource(Page<T> page) {
+    @CustomPageable(PromotionsResource.class)
+    public <T> ApiPageableResponse<T> pageablePromotionsResource(Page<T> page) {
+        return pageableResource(page);
+    }
+
+    public <T> ApiPageableResponse<T> pageableResource(Page<T> page) {
         var pagination = new CustomPagination();
         pagination.setPage(page.getNumber());
         pagination.setPageSize(page.getSize());

@@ -1,11 +1,11 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 
 import java.util.Optional;
 import javax.servlet.http.HttpServletResponse;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
-import py.com.jaha.api.establishments.config.DtoMeta;
+import py.com.jaha.api.promotions.config.DtoMeta;
 
 @DtoMeta
 @NoArgsConstructor

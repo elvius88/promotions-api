@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.domain.usecases;
+package py.com.jaha.api.promotions.domain.usecases;
 
 @FunctionalInterface
 public interface UseCase<R, T> {

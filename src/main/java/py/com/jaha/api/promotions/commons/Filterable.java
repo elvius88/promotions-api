@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

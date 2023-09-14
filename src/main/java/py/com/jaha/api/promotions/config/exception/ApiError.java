@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.config.exception;
+package py.com.jaha.api.promotions.config.exception;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.ArrayList;

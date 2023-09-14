@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
@@ -12,7 +12,7 @@ import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.http.server.ServletServerHttpRequest;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.AbstractMappingJacksonResponseBodyAdvice;
-import py.com.jaha.api.establishments.constants.GlobalConstants;
+import py.com.jaha.api.promotions.constants.GlobalConstants;
 
 @ControllerAdvice
 @Slf4j

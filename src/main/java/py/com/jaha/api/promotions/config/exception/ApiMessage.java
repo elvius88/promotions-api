@@ -1,7 +1,7 @@
-package py.com.jaha.api.establishments.config.exception;
+package py.com.jaha.api.promotions.config.exception;
 
 import lombok.Getter;
-import py.com.jaha.api.establishments.config.DtoMeta;
+import py.com.jaha.api.promotions.config.DtoMeta;
 
 @Getter
 @DtoMeta

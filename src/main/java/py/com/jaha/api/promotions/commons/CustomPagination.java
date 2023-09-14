@@ -1,9 +1,9 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import py.com.jaha.api.establishments.config.DtoMeta;
+import py.com.jaha.api.promotions.config.DtoMeta;
 
 @DtoMeta
 @NoArgsConstructor
@@ -24,7 +24,7 @@ public class CustomPagination {
   public static class Links {
     private String first;
     private String last;
-    private String previus;
+    private String previous;
     private String next;
 
   }

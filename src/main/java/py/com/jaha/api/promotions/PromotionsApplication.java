@@ -1,6 +1,6 @@
-package py.com.jaha.api.establishments;
+package py.com.jaha.api.promotions;
 
-import static py.com.jaha.api.establishments.constants.GlobalConstants.HOST_IP_NAME;
+import static py.com.jaha.api.promotions.constants.GlobalConstants.HOST_IP_NAME;
 
 import java.net.InetAddress;
 import java.util.Locale;
@@ -17,7 +17,6 @@ import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-//@Import({ApiCommonApplication.class, ApiAuditApplication.class})
 @RefreshScope
 @EnableAspectJAutoProxy()
 @EnableAsync
@@ -31,7 +30,7 @@ public class PromotionsApplication {
             String hostAddress = InetAddress.getLocalHost().getHostAddress();
             System.setProperty(HOST_IP_NAME, hostAddress);
         } catch (Exception e) {
-            log.error("No se pudo obtener la ip para el hostIp attr");
+            log.error("Could not get IP for hostIp attribute");
         }
         SpringApplication.run(PromotionsApplication.class, args);
     }
@@ -42,10 +41,9 @@ public class PromotionsApplication {
         Locale.setDefault(Locale.forLanguageTag("es_PY"));
     }
 
-    //aca ya todos los beans estan cargados
     @EventListener(ApplicationReadyEvent.class)
     public void doAfterStartup() {
-        log.info("Ya se inicio el Api de Servicios Generales");
+        log.info("Promotions API has already started");
     }
 
 }

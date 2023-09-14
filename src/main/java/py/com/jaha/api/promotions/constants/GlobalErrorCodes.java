@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.constants;
+package py.com.jaha.api.promotions.constants;
 
 public class GlobalErrorCodes {
 

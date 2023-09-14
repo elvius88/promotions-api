@@ -1,8 +1,8 @@
-package py.com.jaha.api.establishments.domain.usecases;
+package py.com.jaha.api.promotions.domain.usecases;
 
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
-import py.com.jaha.api.establishments.config.exception.ApiException;
+import py.com.jaha.api.promotions.config.exception.ApiException;
 
 public class ApiExceptionMatcher extends TypeSafeMatcher<ApiException> {
 

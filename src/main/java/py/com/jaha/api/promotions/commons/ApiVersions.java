@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.commons;
+package py.com.jaha.api.promotions.commons;
 
 public class ApiVersions {
 

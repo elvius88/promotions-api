@@ -1,4 +1,4 @@
-package py.com.jaha.api.establishments.config.exception;
+package py.com.jaha.api.promotions.config.exception;
 
 public class ApiException extends RuntimeException {
   private String code;
