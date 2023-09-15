@@ -35,7 +35,7 @@ import py.com.jaha.api.promotions.domain.ports.in.promotions.GetPromotionsPort;
 import py.com.jaha.api.promotions.infraestructure.adapters.mappers.PromotionsCommandMapper;
 
 @RestController
-@RequestMapping(value = "/" + API_BASE + "/promotions" + API_VERSION_V1)
+@RequestMapping(value = "/" + API_BASE + "/promotions/" + API_VERSION_V1)
 @Tag(name = "PromotionsResource")
 @RequiredArgsConstructor
 @Slf4j

@@ -1,6 +1,7 @@
 package py.com.jaha.api.promotions.domain.models.offers;
 
 import java.io.Serializable;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,6 +15,7 @@ import lombok.Setter;
 @Builder
 public class Offer implements Serializable {
 
+  private String id;
   private String name;
   private String description;
   private String terms;
@@ -21,4 +23,5 @@ public class Offer implements Serializable {
   private String endDate;
   private String startHour;
   private String endHour;
+  private List<OfferImage> offerImages;
 }

@@ -25,7 +25,7 @@ public class GetOffersUseCase implements GetOffersPort {
             command.getEndDate(), command.getEstablishmentId()))
         .filter(offers -> !CollectionUtils.isEmpty(offers))
         .map(GetOffersResponseMapper.INSTANCE::toGetOfferResponseList)
-        .map(response -> GetOffersResponse.builder().vouchers(response).build())
+        .map(response -> GetOffersResponse.builder().offers(response).build())
         .onSuccess(response -> log.debug("Query has been successful: [{}]", response))
         .onFailure(logAndThrows(log, "Error querying offers data: [{}]", NOT_FOUND))
         .get();

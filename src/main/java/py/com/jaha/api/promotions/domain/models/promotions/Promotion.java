@@ -2,7 +2,6 @@ package py.com.jaha.api.promotions.domain.models.promotions;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,11 +19,8 @@ public class Promotion implements Serializable {
   private String id;
   private String name;
   private String description;
-  private String imagePath;
-  private String term;
+  private String terms;
   private LocalDate startDate;
-  private LocalTime startHour;
   private LocalDate endDate;
-  private LocalTime endHour;
   private List<PromotionImage> promotionImages;
 }

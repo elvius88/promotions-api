@@ -16,5 +16,5 @@ import lombok.ToString;
 @ToString
 public class GetOffersResponse {
 
-  private List<GetOfferResponse> vouchers;
+  private List<GetOfferResponse> offers;
 }

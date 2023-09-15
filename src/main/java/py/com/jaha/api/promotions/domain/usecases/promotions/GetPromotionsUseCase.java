@@ -25,7 +25,7 @@ public class GetPromotionsUseCase implements GetPromotionsPort {
             command.getEndDate(), command.getEstablishmentId()))
         .filter(promotions -> !CollectionUtils.isEmpty(promotions))
         .map(GetPromotionsResponseMapper.INSTANCE::toGetPromotionResponseList)
-        .map(response -> GetPromotionsResponse.builder().vouchers(response).build())
+        .map(response -> GetPromotionsResponse.builder().promotions(response).build())
         .onSuccess(response -> log.debug("Query has been successful: [{}]", response))
         .onFailure(logAndThrows(log, "Error querying promotions data: [{}]", NOT_FOUND))
         .get();

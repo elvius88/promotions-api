@@ -35,7 +35,7 @@ import py.com.jaha.api.promotions.domain.ports.in.offers.GetOffersPort;
 import py.com.jaha.api.promotions.infraestructure.adapters.mappers.OffersCommandMapper;
 
 @RestController
-@RequestMapping(value = "/" + API_BASE + "/promotions" + API_VERSION_V1)
+@RequestMapping(value = "/" + API_BASE + "/promotions/" + API_VERSION_V1)
 @Tag(name = "OffersResource")
 @RequiredArgsConstructor
 @Slf4j
